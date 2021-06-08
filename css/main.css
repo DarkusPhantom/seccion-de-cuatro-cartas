@@ -1,0 +1,28 @@
+@import "root.css";
+@import "header.css";
+@import "cards.css";
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap");
+
+body {
+  background: var(--color-neutral-veryLightGray);
+  margin: 0;
+  padding: 0;
+  font-family: var(--fontFamily-poppins);
+  font-size: var(--fontSize-body);
+}
+
+.container {
+  width: 85%;
+  margin: 35px auto;
+}
+
+.text {
+  margin: 0 auto;
+  color: var(--color-neutral-grayishBlue);
+}
+
+.title {
+  margin: 0 auto 15px auto;
+  text-align: center;
+}

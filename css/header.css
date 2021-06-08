@@ -1,0 +1,23 @@
+.header__page {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin: auto;
+  align-items: center;
+}
+
+.header__title__primary {
+  color: var(--color-neutral-veryDarkBlue);
+}
+
+.header__title__secundary {
+  margin: 0 auto;
+  font-size: 1.88rem;
+  font-weight: var(--fontWeight-extraLight);
+  color: var(--color-neutral-veryDarkBlue);
+}
+
+.header__text {
+  width: 80%;
+  text-align: center;
+}

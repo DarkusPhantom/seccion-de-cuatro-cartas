@@ -1,0 +1,26 @@
+{
+  "name": "seccion-de-cuatro-cartas",
+  "version": "1.0.0",
+  "description": "Reto #3 de #WebChallenge de Platzi: Crear una seccion de cuatro cartas",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/darkusphantom/seccion-de-cuatro-cartas.git"
+  },
+  "keywords": [
+    "HTML",
+    "CSS",
+    "Flexbox",
+    "CSS",
+    "Grid"
+  ],
+  "author": "Luis Fernando Rodriguez darkusphantom13@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/darkusphantom/seccion-de-cuatro-cartas/issues"
+  },
+  "homepage": "https://github.com/darkusphantom/seccion-de-cuatro-cartas#readme"
+}

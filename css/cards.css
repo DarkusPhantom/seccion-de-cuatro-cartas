@@ -1,0 +1,63 @@
+.container__cards {
+  display: grid;
+  grid-template-columns: [cardLeftStart] 300px [cardLeftEnd] 25px [cardCenterStart] 300px [cardCenterEnd] 25px [cardRightStart] 300px [cardRightEnd];
+  grid-template-rows: [cardTopStart] 130px [cardTopCenter] 130px [cardTopEnd] 30px [cardBottomStart] 130px [cardBottomCenter] 130px [cardBottomEnd];
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin: 50px auto;
+}
+
+.card {
+  justify-self: center;
+  width: 300px;
+  height: 240px;
+  box-shadow: 0px 10px 20px var(--color-neutral-grayishBlue);
+  border-radius: 7px;
+  position: relative;
+}
+
+.card__left {
+  grid-column: cardLeftStart / span cardLeftEnd;
+  grid-row: cardTopCenter / span cardBottomCenter;
+  border-top: 5px solid var(--color-primary-cyan);
+}
+
+.card__top {
+  grid-column: cardCenterStart / span cardCenterEnd;
+  grid-row: cardTopStart / span cardTopEnd;
+  align-self: flex-end;
+  border-top: 5px solid var(--color-primary-red);
+}
+
+.card__bottom {
+  grid-column: cardCenterStart / span cardCenterEnd;
+  grid-row: cardBottomStart / span cardBottomEnd;
+  align-self: start;
+  border-top: 5px solid var(--color-primary-orange);
+}
+
+.card__right {
+  grid-column: cardRightStart / span cardRightEnd;
+  grid-row: cardTopCenter / span cardBottomCenter;
+  border-top: 5px solid var(--color-primary-blue);
+}
+
+.title-card {
+  color: var(--color-neutral-veryDarkBlue);
+  font-weight: var(--fontWeight-semiBold);
+  margin-bottom: 10px;
+}
+
+.text-card {
+  color: var(--color-neutral-grayishBlue);
+  margin: 0;
+  font-size: 0.8rem;
+  font-weight: var(--fontWeight-regular);
+}
+
+.image-card {
+  position: absolute;
+  bottom: 10px;
+  right: 25px;
+}
