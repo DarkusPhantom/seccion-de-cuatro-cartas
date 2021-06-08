@@ -15,9 +15,28 @@
   font-size: 1.88rem;
   font-weight: var(--fontWeight-extraLight);
   color: var(--color-neutral-veryDarkBlue);
+  text-align: center;
 }
 
 .header__text {
   width: 80%;
   text-align: center;
+}
+
+@media screen and (max-width: 1000px) {
+  .header__page {
+    width: 95%;
+  }
+
+  .header__title__primary {
+    font-size: 1.5rem;
+  }
+
+  .header__title__secundary {
+    font-size: 1.55rem;
+  }
+
+  .header__text {
+    width: 100%;
+  }
 }

@@ -61,3 +61,32 @@
   bottom: 10px;
   right: 25px;
 }
+
+@media screen and (max-width: 1000px) {
+  .container__cards {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .card {
+    margin-bottom: 5vh;
+  }
+
+  .card__left {
+    grid-row: cardLeftStart / span cardLeftEnd;
+  }
+
+  .card__top {
+    grid-row: cardTopStart / span cardTopEnd;
+    align-self: initial;
+  }
+
+  .card__bottom {
+    grid-row: cardBottomStart / span cardBottomEnd;
+    align-self: initial;
+  }
+
+  .card__right {
+    grid-row: cardRightStart / span cardRightEnd;
+  }
+}
